@@ -22,4 +22,4 @@ pl4 <- pl3 + theme_economist_white()
 
 pl5 <- pl4 + xlab('Corruption Perception Index') + ylab('Human Development Index') + ggtitle('Corruption and Human Development')
 
-print(ggplotly(pl5))
+print(pl5)
